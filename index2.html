@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                <label for="surname">Фамилия</label>
+                <input id="surname" type="text" name="information" placeholder="Иванов">
+            </div>
+            <div>
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="information" placeholder="Иван">
+            </div>
+            <div>
+                <label for="middle name">Отчество</label>
+                <input id="middle name" type="text" name="information" placeholder="Иванович">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input id="email" type="email" name="information" placeholder="mail@mail.ru">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Пол</legend>
+            <div>
+                <input type="radio" id="M" name="gender" value="men">
+                <label for="M">М</label>
+
+                <input type="radio" id="W" name="gender" value="woman">
+                <label for="W">Ж</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Хобби</legend>
+            <div>
+                <input type="checkbox" id="painting" name="hobby" value="painting">
+                <label for="painting">Рисование</label>
+
+                <input type="checkbox" id="reading" name="hobby" value="reading">
+                <label for="reading">Чтение</label>
+
+                <input type="checkbox" id="knitting" name="hobby" value="knitting">
+                <label for="knitting">Вязание</label>
+
+                <input type="checkbox" id="cooking" name="hobby" value="cooking">
+                <label for="cooking">Кулинария</label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </form>
+</body>
+</html>
